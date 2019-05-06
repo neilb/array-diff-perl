@@ -1,4 +1,5 @@
 package Array::Diff;
+
 use strict;
 use warnings;
 use base qw/Class::Accessor::Fast/;
@@ -6,7 +7,6 @@ use base qw/Class::Accessor::Fast/;
 use Algorithm::Diff 1.19;
 eval q{ use Algorithm::Diff::XS; };
 
-our $VERSION = '0.08';
 
 __PACKAGE__->mk_accessors(qw/added deleted count diff_class/);
 
