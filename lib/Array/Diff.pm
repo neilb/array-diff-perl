@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw/Class::Accessor::Fast/;
 
-use Algorithm::Diff;
+use Algorithm::Diff 1.19;
 eval q{ use Algorithm::Diff::XS; };
 
 our $VERSION = '0.08';
