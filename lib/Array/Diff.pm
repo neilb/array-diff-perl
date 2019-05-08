@@ -113,6 +113,8 @@ the C<added> and C<deleted> properties.
 L<Array::Compare> - performs the same function as this module,
 but has options for controlling how it works.
 
+L<List::Compare> - similar functionality, but again with more options.
+
 L<Algorithm::Diff> - the underlying implementation of the diff algorithm.
 If you've got L<Algorithm::Diff::XS> installed, that will be used.
 
