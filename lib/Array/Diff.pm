@@ -110,6 +110,9 @@ the C<added> and C<deleted> properties.
 
 =head1 SEE ALSO
 
+L<Array::Compare> - performs the same function as this module,
+but has options for controlling how it works.
+
 L<Algorithm::Diff> - the underlying implementation of the diff algorithm.
 If you've got L<Algorithm::Diff::XS> installed, that will be used.
 
