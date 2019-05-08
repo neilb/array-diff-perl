@@ -3,6 +3,9 @@ Revision history for Perl module Array::Diff
 0.07_03 2019-05-08 NEILB
     - Added Array::Compare to SEE ALSO
     - Added List::Compare to SEE ALSO
+    - Really just making another developer release, as PAUSE and then
+      CPAN Testers had issues, so previous dev releases didn't get much
+      testing.
 
 0.07_02 2019-05-07 NEILB
     - Added a bunch of entries to SEE ALSO.
