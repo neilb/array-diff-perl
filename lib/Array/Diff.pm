@@ -27,8 +27,11 @@ Array::Diff - Find the differences between two arrays
 
 =head1 DESCRIPTION
 
-This module compares two arrays and returns the added or deleted elements
-in two separate arrays.  It's a simple wrapper around L<Algorithm::Diff>.
+This module compares two B<pre-sorted> arrays
+and returns the added or deleted elements in two separate arrays.
+It's a simple wrapper around L<Algorithm::Diff>.
+
+B<Note>: the arrays must be sorted before you call C<diff>.
 
 And if you need more complex array tools, check L<Array::Compare>.
 
